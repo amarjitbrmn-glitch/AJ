@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">NES TV</string>
+    <string name="tab_all_games">All Games</string>
+    <string name="tab_favorites">Favorites</string>
+    <string name="tab_recent">Recently Played</string>
+    <string name="tab_action">Action &amp; Adventure</string>
+    <string name="tab_arcade">Arcade &amp; Puzzle</string>
+    <string name="tab_custom">Custom ROMs</string>
+    <string name="tab_settings">Settings</string>
+
+    <string name="play_game">Play Game</string>
+    <string name="resume_game">Resume</string>
+    <string name="restart_game">Reset Game</string>
+    <string name="save_state">Save State</string>
+    <string name="load_state">Load State</string>
+    <string name="state_slot">Slot</string>
+    <string name="saved_success">State Saved Successfully</string>
+    <string name="loaded_success">State Loaded</string>
+    <string name="speed_normal">Speed: Normal (1x)</string>
+    <string name="speed_fast">Speed: Fast (2x)</string>
+    <string name="speed_ultra">Speed: Ultra (4x)</string>
+
+    <string name="crt_filter_on">CRT Scanlines: ON</string>
+    <string name="crt_filter_off">CRT Scanlines: OFF</string>
+    <string name="aspect_ratio">Aspect Ratio</string>
+    <string name="aspect_4_3">Original (4:3)</string>
+    <string name="aspect_pixel">Pixel Perfect (8:7)</string>
+    <string name="aspect_16_9">Widescreen (16:9)</string>
+
+    <string name="touch_controls">Touch Controls</string>
+    <string name="touch_controls_desc">Show on-screen virtual game pad overlay</string>
+    <string name="audio_enabled">Sound / APU</string>
+    <string name="audio_desc">8-bit Pulse, Triangle &amp; Noise channels</string>
+    <string name="load_custom_rom">Load .NES ROM from Storage</string>
+    <string name="no_roms_found">No custom ROM files loaded yet</string>
+    <string name="exit_to_hub">Exit to Hub</string>
+    <string name="controls_guide">TV Remote &amp; Gamepad Controls</string>
+</resources>

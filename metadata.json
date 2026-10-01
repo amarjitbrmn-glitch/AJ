@@ -1,0 +1,6 @@
+{
+  "name": "NES TV",
+  "description": "Retro NES console and emulator for Android TV with D-pad navigation, built-in games, save states, and gamepad support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

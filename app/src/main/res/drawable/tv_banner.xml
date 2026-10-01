@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+    <!-- Background Gradient -->
+    <path
+        android:pathData="M0,0h320v180h-320z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="320"
+                android:endY="180"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#0B0F19" />
+                <item android:offset="0.5" android:color="#1A1F36" />
+                <item android:offset="1.0" android:color="#111827" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Grid Lines -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#1838BDF8"
+        android:strokeWidth="1"
+        android:pathData="M0,30 H320 M0,60 H320 M0,90 H320 M0,120 H320 M0,150 H320 M30,0 V180 M60,0 V180 M90,0 V180 M120,0 V180 M150,0 V180 M180,0 V180 M210,0 V180 M240,0 V180 M270,0 V180 M300,0 V180" />
+    
+    <!-- NES Controller Graphic on the left -->
+    <!-- Controller Shadow -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M35,62 h90 c3,0 5,2 5,5 v48 c0,3 -2,5 -5,5 h-90 c-3,0 -5,-2 -5,-5 v-48 c0,-3 2,-5 5,-5 z" />
+    <!-- Faceplate -->
+    <path
+        android:fillColor="#D1D5DB"
+        android:pathData="M35,60 h90 c3,0 5,2 5,5 v48 c0,3 -2,5 -5,5 h-90 c-3,0 -5,-2 -5,-5 v-48 c0,-3 2,-5 5,-5 z" />
+    <!-- Black Panel -->
+    <path
+        android:fillColor="#1F2937"
+        android:pathData="M38,65 h84 c1.5,0 2.5,1 2.5,2.5 v37 c0,1.5 -1,2.5 -2.5,2.5 h-84 c-1.5,0 -2.5,-1 -2.5,-2.5 v-37 c0,-1.5 1,-2.5 2.5,-2.5 z" />
+    <!-- D-Pad -->
+    <path
+        android:fillColor="#111827"
+        android:pathData="M46,80 h20 v6 h-20 z" />
+    <path
+        android:fillColor="#111827"
+        android:pathData="M53,73 h6 v20 h-6 z" />
+    <!-- Red stripes -->
+    <path
+        android:fillColor="#DC2626"
+        android:pathData="M70,70 h18 v3 h-18 z" />
+    <!-- Select/Start -->
+    <path
+        android:fillColor="#4B5563"
+        android:pathData="M72,86 h6 v3 h-6 z M82,86 h6 v3 h-6 z" />
+    <!-- B / A buttons -->
+    <path
+        android:fillColor="#DC2626"
+        android:pathData="M98,84 m-5,0 a5,5 0 1,1 10,0 a5,5 0 1,1 -10,0" />
+    <path
+        android:fillColor="#DC2626"
+        android:pathData="M112,84 m-5,0 a5,5 0 1,1 10,0 a5,5 0 1,1 -10,0" />
+
+    <!-- "NES TV" 8-bit / Modern Retro Title Bar -->
+    <!-- Red Accent Chip -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M148,60 h6 v48 h-6 z" />
+    <!-- NES TV Neon Glow Plate -->
+    <path
+        android:fillColor="#1E293B"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1.5"
+        android:pathData="M160,56 h130 c4,0 6,2 6,6 v52 c0,4 -2,6 -6,6 h-130 c-4,0 -6,-2 -6,-6 v-52 c0,-4 2,-6 6,-6 z" />
+    
+    <!-- Retro Pixel Banner Inner Accent -->
+    <path
+        android:fillColor="#E0E7FF"
+        android:pathData="M165,66 h120 v3 h-120 z" />
+    <!-- Retro Badge Text Shapes / Decorative Blocks -->
+    <path
+        android:fillColor="#F43F5E"
+        android:pathData="M168,76 h18 v22 h-18 z" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M190,76 h24 v22 h-24 z" />
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M218,76 h18 v22 h-18 z" />
+    <path
+        android:fillColor="#34D399"
+        android:pathData="M240,76 h40 v22 h-40 z" />
+</vector>
